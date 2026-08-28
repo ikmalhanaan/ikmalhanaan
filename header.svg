@@ -1,0 +1,251 @@
+<svg viewBox="0 0 900 280" width="900" height="280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <!-- Neon glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Softer glow for subtitle/UI elements -->
+    <filter id="softglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Title gradient: green → cyan → green -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00ff88"/>
+      <stop offset="50%"  stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00ff88"/>
+    </linearGradient>
+
+    <!-- Horizontal fade gradient for lines -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#00b4d8" stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#00b4d8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      /* === GRID === */
+      .g { stroke:#00b4d8; stroke-width:0.4; opacity:0.1; }
+
+      /* === MAIN TITLE === */
+      .title {
+        font-family:'Courier New',Courier,monospace;
+        font-size:54px;
+        font-weight:900;
+        letter-spacing:6px;
+        fill:url(#titleGrad);
+        filter:url(#glow);
+      }
+
+      /* === GLITCH RED LAYER === */
+      .gr {
+        font-family:'Courier New',Courier,monospace;
+        font-size:54px;
+        font-weight:900;
+        letter-spacing:6px;
+        fill:#ff003c;
+        opacity:0;
+        animation:glitch-r 7s step-end infinite;
+      }
+      @keyframes glitch-r {
+        0%,74%,100% { opacity:0; transform:translate(0,0); }
+        75%  { opacity:0.85; transform:translate(-6px,-2px); }
+        77%  { opacity:0.50; transform:translate(5px,2px);  }
+        79%  { opacity:0; }
+        89%  { opacity:0.45; transform:translate(-3px,0); }
+        90%  { opacity:0; }
+      }
+
+      /* === GLITCH BLUE LAYER === */
+      .gb {
+        font-family:'Courier New',Courier,monospace;
+        font-size:54px;
+        font-weight:900;
+        letter-spacing:6px;
+        fill:#00e5ff;
+        opacity:0;
+        animation:glitch-b 7s step-end infinite;
+      }
+      @keyframes glitch-b {
+        0%,74%,100% { opacity:0; transform:translate(0,0); }
+        75%  { opacity:0.65; transform:translate(6px,2px);  }
+        77%  { opacity:0.40; transform:translate(-5px,-2px); }
+        79%  { opacity:0; }
+        89%  { opacity:0.35; transform:translate(3px,0); }
+        90%  { opacity:0; }
+      }
+
+      /* === BLINKING CURSOR === */
+      .cursor {
+        font-family:'Courier New',Courier,monospace;
+        font-size:50px;
+        font-weight:900;
+        fill:#00ff88;
+        filter:url(#softglow);
+        animation:blink 1s step-end infinite;
+      }
+      @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+      /* === SUBTITLE === */
+      .subtitle {
+        font-family:'Courier New',Courier,monospace;
+        font-size:13px;
+        letter-spacing:4px;
+        fill:#00b4d8;
+        filter:url(#softglow);
+        animation:subpulse 3s ease-in-out infinite;
+      }
+      @keyframes subpulse { 0%,100%{opacity:1;} 50%{opacity:0.45;} }
+
+      /* === CORNER BRACKETS === */
+      .corner { stroke:#00b4d8; stroke-width:2; fill:none; animation:cpulse 2.5s ease-in-out infinite; }
+      @keyframes cpulse { 0%,100%{stroke-opacity:1;} 50%{stroke-opacity:0.25;} }
+
+      /* === SMALL TAGS === */
+      .tag {
+        font-family:'Courier New',Courier,monospace;
+        font-size:10px;
+        letter-spacing:2px;
+        fill:#00ff88;
+        opacity:0.70;
+      }
+
+      /* === HEX CODES === */
+      .hex {
+        font-family:'Courier New',Courier,monospace;
+        font-size:9px;
+        letter-spacing:1.5px;
+        fill:#00b4d8;
+        opacity:0.38;
+      }
+
+      /* === SCAN LINE === */
+      .scan { animation:scan 5s linear infinite; }
+      @keyframes scan { 0%{transform:translateY(-30px);} 100%{transform:translateY(310px);} }
+    </style>
+  </defs>
+
+  <!-- ██ BACKGROUND ██ -->
+  <rect width="900" height="280" fill="#07090f"/>
+
+  <!-- ██ GRID ██ -->
+  <line class="g" x1="75"  y1="0"   x2="75"  y2="280"/>
+  <line class="g" x1="150" y1="0"   x2="150" y2="280"/>
+  <line class="g" x1="225" y1="0"   x2="225" y2="280"/>
+  <line class="g" x1="300" y1="0"   x2="300" y2="280"/>
+  <line class="g" x1="375" y1="0"   x2="375" y2="280"/>
+  <line class="g" x1="450" y1="0"   x2="450" y2="280"/>
+  <line class="g" x1="525" y1="0"   x2="525" y2="280"/>
+  <line class="g" x1="600" y1="0"   x2="600" y2="280"/>
+  <line class="g" x1="675" y1="0"   x2="675" y2="280"/>
+  <line class="g" x1="750" y1="0"   x2="750" y2="280"/>
+  <line class="g" x1="825" y1="0"   x2="825" y2="280"/>
+  <line class="g" x1="0"   y1="70"  x2="900" y2="70"/>
+  <line class="g" x1="0"   y1="140" x2="900" y2="140"/>
+  <line class="g" x1="0"   y1="210" x2="900" y2="210"/>
+
+  <!-- ██ SCAN LINE SWEEP ██ -->
+  <rect class="scan" x="0" y="-30" width="900" height="22" fill="#00e5ff" opacity="0.045"/>
+
+  <!-- ██ TOP NEON BORDER ██ -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#lineGrad)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ██ BOTTOM NEON BORDER ██ -->
+  <rect x="0" y="277" width="900" height="3" fill="url(#lineGrad)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ██ LEFT VERTICAL BAR ██ -->
+  <rect x="34" y="60" width="3" height="160" fill="#00ff88" rx="1">
+    <animate attributeName="height"  values="160;128;160" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="y"       values="60;76;60"    dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.45;0.9" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ██ RIGHT VERTICAL BAR ██ -->
+  <rect x="863" y="60" width="3" height="160" fill="#00ff88" rx="1">
+    <animate attributeName="height"  values="160;128;160"  dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="y"       values="60;76;60"     dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.45;0.9" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ██ CORNER BRACKETS ██ -->
+  <polyline class="corner" points="14,46 14,14 46,14"/>
+  <polyline class="corner" points="886,46 886,14 854,14"/>
+  <polyline class="corner" points="14,234 14,266 46,266"/>
+  <polyline class="corner" points="886,234 886,266 854,266"/>
+
+  <!-- ██ CORNER LEDs ██ -->
+  <rect x="10"  y="10"  width="4" height="4" fill="#00ff88" rx="1">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="886" y="10"  width="4" height="4" fill="#00ff88" rx="1">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" begin="0.70s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="10"  y="266" width="4" height="4" fill="#00ff88" rx="1">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="886" y="266" width="4" height="4" fill="#00ff88" rx="1">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" begin="1.05s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ██ DECORATIVE DASHES ██ -->
+  <line x1="56"  y1="52" x2="132" y2="52" stroke="#00b4d8" stroke-width="0.8" opacity="0.32"/>
+  <line x1="768" y1="52" x2="844" y2="52" stroke="#00b4d8" stroke-width="0.8" opacity="0.32"/>
+  <line x1="56"  y1="228" x2="132" y2="228" stroke="#00b4d8" stroke-width="0.8" opacity="0.32"/>
+  <line x1="768" y1="228" x2="844" y2="228" stroke="#00b4d8" stroke-width="0.8" opacity="0.32"/>
+
+  <!-- ██ TOP TAGS ██ -->
+  <text x="56"  y="37" class="tag">[ SYSTEM ONLINE ]</text>
+  <text x="695" y="37" class="tag">v2.0.26_HANZ</text>
+
+  <!-- ██ BOTTOM HEX CODES ██ -->
+  <text x="56"  y="261" class="hex">0x48414E5A &gt;&gt; BOOT_SEQ_COMPLETE</text>
+  <text x="646" y="261" class="hex">SEC_LEVEL: ELITE</text>
+
+  <!-- ██ GLITCH LAYERS (behind main text) ██ -->
+  <text x="447" y="162" class="gr" text-anchor="middle">HanzCodedDrop</text>
+  <text x="453" y="162" class="gb" text-anchor="middle">HanzCodedDrop</text>
+
+  <!-- ██ MAIN TITLE ██ -->
+  <text x="450" y="162" class="title" text-anchor="middle">HanzCodedDrop</text>
+
+  <!-- ██ BLINKING CURSOR ██  (positioned right of title) -->
+  <text x="706" y="162" class="cursor">|</text>
+
+  <!-- ██ DIVIDER LINE ██ -->
+  <line x1="190" y1="184" x2="710" y2="184" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.8;0.25;0.8" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <!-- Divider dots -->
+  <circle cx="190" cy="184" r="3" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="710" cy="184" r="3" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="184" r="2.5" fill="#00b4d8" opacity="0.9">
+    <animate attributeName="r" values="2.5;1.5;2.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="184" r="1.5" fill="#00b4d8" opacity="0.5"/>
+  <circle cx="580" cy="184" r="1.5" fill="#00b4d8" opacity="0.5"/>
+
+  <!-- ██ SUBTITLE ██ -->
+  <text x="450" y="214" class="subtitle" text-anchor="middle">FULLSTACK DEV  //  PENTESTER  //  CTF PLAYER</text>
+
+</svg>

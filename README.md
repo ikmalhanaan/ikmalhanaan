@@ -1,19 +1,19 @@
 <!-- ══════════════════════════════════════════════════════════════
    README.md — GitHub Profile: ikmalhanaan / HanzCodedDrop
-   🎨 Theme : Dark Cyberpunk Minimalist
+   🎨 Theme : Dark Cyberpunk Minimalist  |  FINAL VERSION
+   
+   PENTING: Commit 3 file ke root repo ikmalhanaan/ikmalhanaan:
+   ├── README.md   ← ini
+   ├── header.svg  ← file header cyberpunk
+   └── footer.svg  ← file footer cyberpunk
    ══════════════════════════════════════════════════════════════ -->
 
-<!-- ░░░ HEADER BANNER ░░░ -->
+<!-- ░░░ CYBERPUNK HEADER (custom animated SVG) ░░░ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:00b4d8,100:00ff88&height=200&section=header&text=Hi%2C%20I'm%20HanzCodedDrop&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Fullstack%20Developer%20%26%20Cyber%20Security%20Enthusiast&descAlignY=58&descSize=16&descColor=00ff88&animation=fadeIn" alt="Header Banner"/>
+  <img width="100%" src="./header.svg" alt="HanzCodedDrop — Cyberpunk Header"/>
 </p>
 
-<!-- ░░░ TYPING SVG — Auto-type intro ░░░ -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00B4D8&center=true&vCenter=true&multiline=false&width=700&lines=💻+Building+Web+%26+Mobile+Apps...;🔐+Breaking+Things+Ethically+Since+Day+1;🚀+Fullstack+Dev+%7C+Pentester+%7C+CTF+Player;🌐+Turn+Coffee+into+Code+%26+Vulnerabilities+into+Fixes" alt="Typing SVG"/>
-  </a>
-</p>
+<br>
 
 ---
 
@@ -31,120 +31,120 @@ Motto     : "Hack to learn, build to defend."
 
 ---
 
-<!-- ░░░ MARQUEE TECH STACK ░░░ -->
+<!-- ░░░ TECH STACK BADGES ░░░ -->
 <h2 align="center">⚙️ Tech Stack</h2>
 
 <!-- 🌐 WEB DEVELOPMENT -->
 <h3 align="center">🌐 Web Development</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
 </p>
 
 <!-- 📱 MOBILE DEVELOPMENT -->
 <h3 align="center">📱 Mobile Development</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
 </p>
 
-<!-- 🔐 CYBER SECURITY TOOLS -->
+<!-- 🔐 CYBER SECURITY -->
 <h3 align="center">🔐 Cyber Security Tools</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=portswigger&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=portswigger&logoColor=white" alt="Burp Suite"/>
+  <img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/>
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
 </p>
 
 ---
 
-<!-- ░░░ ROLLING ICON TABLE ░░░ -->
+<!-- ░░░ ROLLING SKILL ICON TABLE ░░░ -->
 <h2 align="center">🚀 Rolling Stack</h2>
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=html" width="45" height="45" alt="HTML"/>
         <br><sub><b>HTML5</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=css" width="45" height="45" alt="CSS"/>
         <br><sub><b>CSS3</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JS"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=js" width="45" height="45" alt="JS"/>
         <br><sub><b>JavaScript</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TS"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=ts" width="45" height="45" alt="TS"/>
         <br><sub><b>TypeScript</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=react" width="45" height="45" alt="React"/>
         <br><sub><b>React</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=nextjs" width="45" height="45" alt="Next"/>
         <br><sub><b>Next.js</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45" alt="Node"/>
         <br><sub><b>Node.js</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=laravel" width="45" height="45" alt="Laravel"/>
         <br><sub><b>Laravel</b></sub>
       </td>
     </tr>
     <tr>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=flutter" width="48" height="48" alt="Flutter"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=flutter" width="45" height="45" alt="Flutter"/>
         <br><sub><b>Flutter</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="Dart"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=dart" width="45" height="45" alt="Dart"/>
         <br><sub><b>Dart</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=python" width="45" height="45" alt="Python"/>
         <br><sub><b>Python</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=bash" width="45" height="45" alt="Bash"/>
         <br><sub><b>Bash</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=linux" width="45" height="45" alt="Linux"/>
         <br><sub><b>Linux</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=mysql" width="45" height="45" alt="MySQL"/>
         <br><sub><b>MySQL</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" alt="Firebase"/>
         <br><sub><b>Firebase</b></sub>
       </td>
-      <td align="center" width="110">
-        <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=git" width="45" height="45" alt="Git"/>
         <br><sub><b>Git</b></sub>
       </td>
     </tr>
@@ -157,60 +157,58 @@ Motto     : "Hack to learn, build to defend."
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <p align="center">
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=ikmalhanaan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=12&bg_color=0d1117&title_color=00b4d8&icon_color=00ff88&text_color=c9d1d9&border_color=30363d"
-    alt="ikmalhanaan GitHub Stats"/>
-  &nbsp;
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikmalhanaan&layout=compact&langs_count=8&theme=tokyonight&border_radius=12&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=30363d"
-    alt="Top Languages"/>
+  <img height="175em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ikmalhanaan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00ff88&text_color=c9d1d9&cache_seconds=86400" alt="GitHub Stats"/>
+  &nbsp;&nbsp;
+  <img height="175em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ikmalhanaan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&cache_seconds=86400" alt="Top Languages"/>
 </p>
 
 <!-- GitHub Streak -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ikmalhanaan&theme=tokyonight&hide_border=false&border_radius=12&background=0d1117&ring=00b4d8&fire=00ff88&currStreakLabel=00b4d8&sideLabels=c9d1d9&sideNums=00b4d8&currStreakNum=00ff88&dates=888888&stroke=30363d" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=ikmalhanaan&theme=tokyonight&hide_border=true&background=0d1117&ring=00b4d8&fire=00ff88&currStreakLabel=00b4d8&sideLabels=c9d1d9&sideNums=00b4d8&currStreakNum=00ff88&dates=888888" alt="GitHub Streak"/>
 </p>
 
 ---
 
-<!-- ░░░ ACTIVITY GRAPH ░░░ -->
+<!-- ░░░ CONTRIBUTION ACTIVITY GRAPH ░░░ -->
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikmalhanaan&bg_color=0d1117&color=00b4d8&line=00ff88&point=ffffff&area=true&area_color=00b4d8&hide_border=false&border_color=30363d&radius=12" alt="Activity Graph"/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ikmalhanaan&bg_color=0d1117&color=00b4d8&line=00ff88&point=ffffff&area=true&area_color=00b4d8&hide_border=true" alt="Activity Graph"/>
 </p>
 
 ---
 
 <!-- ░░░ CTF PLATFORMS ░░░ -->
-<h2 align="center">🏴 CTF & Hacking Platforms</h2>
+<h2 align="center">🏴 CTF &amp; Hacking Platforms</h2>
 
 <p align="center">
   <a href="https://tryhackme.com/p/ikmalhanaan" target="_blank">
-    <!-- ⚠️ EDIT: Ganti "ikmalhanaan" di URL dengan username TryHackMe kamu yang benar -->
+    <!-- ⚠️ EDIT: Ganti "ikmalhanaan" dengan username TryHackMe kamu -->
     <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red" alt="TryHackMe"/>
   </a>
   &nbsp;
-  <a href="https://app.hackthebox.com/profile/ikmalhanaan" target="_blank">
-    <!-- ⚠️ EDIT: Ganti URL dengan link profil Hack The Box kamu (biasanya pakai angka ID numerik) -->
+  <a href="https://app.hackthebox.com/profile/0" target="_blank">
+    <!-- ⚠️ EDIT: Ganti "0" dengan ID numerik profil HTB kamu (cek di URL profil HTB) -->
     <img src="https://img.shields.io/badge/Hack_The_Box-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Hack The Box"/>
   </a>
   &nbsp;
-  <a href="https://picoctf.org" target="_blank">
-    <!-- ⚠️ EDIT: Ganti dengan profil PicoCTF kamu jika ada -->
+  <a href="https://play.picoctf.org/users/ikmalhanaan" target="_blank">
+    <!-- ⚠️ EDIT: Ganti "ikmalhanaan" dengan username PicoCTF kamu -->
     <img src="https://img.shields.io/badge/PicoCTF-4CAF50?style=for-the-badge&logo=picoctf&logoColor=white" alt="PicoCTF"/>
   </a>
 </p>
 
-<!-- TryHackMe Badge embed — aktifkan setelah dapat URL badge dari dashboard TryHackMe -->
-<!-- <p align="center">
+<!-- TryHackMe Badge — uncomment setelah dapat badge URL dari dashboard THM -->
+<!--
+<p align="center">
   <img src="https://tryhackme-badges.s3.amazonaws.com/ikmalhanaan.png" alt="TryHackMe Badge"/>
-</p> -->
+</p>
+-->
 
 ---
 
-<!-- ░░░ PORTFOLIO & SOCIAL ░░░ -->
-<h2 align="center">🌐 Portfolio & Social Links</h2>
+<!-- ░░░ PORTFOLIO & SOCIAL LINKS ░░░ -->
+<h2 align="center">🌐 Portfolio &amp; Social Links</h2>
 
 <p align="center">
   <a href="https://your-portfolio-website.com" target="_blank">
@@ -236,34 +234,31 @@ Motto     : "Hack to learn, build to defend."
 
 ---
 
-<!-- ░░░ PINNED FEATURED PROJECTS ░░░ -->
+<!-- ░░░ FEATURED PROJECTS ░░░ -->
 <h2 align="center">📌 Featured Projects</h2>
 
 <p align="center">
   <a href="https://github.com/ikmalhanaan/Postwigger-SQL-Injection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ikmalhanaan&repo=Postwigger-SQL-Injection&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=30363d&icon_color=00ff88" alt="Postwigger SQL Injection"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=Postwigger-SQL-Injection&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="Postwigger SQL Injection"/>
   </a>
   &nbsp;
   <a href="https://github.com/ikmalhanaan/TryHackMe-Overpass">
-    <!-- ⚠️ EDIT: Ganti "TryHackMe-Overpass" dengan nama repo lain jika perlu -->
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ikmalhanaan&repo=TryHackMe-Overpass&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=30363d&icon_color=00ff88" alt="TryHackMe Overpass"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=TryHackMe-Overpass&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="TryHackMe Overpass"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ikmalhanaan/DVWA-Practice">
-    <!-- ⚠️ EDIT: Ganti "DVWA-Practice" dengan nama repo lain jika perlu -->
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ikmalhanaan&repo=DVWA-Practice&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=30363d&icon_color=00ff88" alt="DVWA Practice"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=DVWA-Practice&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="DVWA Practice"/>
   </a>
   &nbsp;
   <a href="https://github.com/ikmalhanaan/PicoCTF">
-    <!-- ⚠️ EDIT: Ganti "PicoCTF" dengan nama repo lain jika perlu -->
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ikmalhanaan&repo=PicoCTF&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=30363d&icon_color=00ff88" alt="PicoCTF"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=PicoCTF&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="PicoCTF"/>
   </a>
 </p>
 
 ---
 
-<!-- ░░░ VISITOR COUNTER ░░░ -->
+<!-- ░░░ VISITOR COUNTER & FOLLOWERS ░░░ -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ikmalhanaan&label=Profile+Views&color=00b4d8&style=for-the-badge" alt="Profile Views"/>
   &nbsp;
@@ -273,6 +268,8 @@ Motto     : "Hack to learn, build to defend."
 ---
 
 <!-- ░░░ SNAKE ANIMATION ░░░ -->
+<!-- SETUP: Buat file .github/workflows/snake.yml di repo ini, isi dengan snake.yml yang disertakan.
+     Lalu buka tab Actions → Run workflow → tunggu selesai. Snake akan muncul otomatis. -->
 <h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
@@ -281,46 +278,16 @@ Motto     : "Hack to learn, build to defend."
       srcset="https://raw.githubusercontent.com/ikmalhanaan/ikmalhanaan/output/github-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/ikmalhanaan/ikmalhanaan/output/github-snake.svg"/>
-    <img alt="github contribution grid snake animation"
-      src="https://raw.githubusercontent.com/ikmalhanaan/ikmalhanaan/output/github-snake.svg"/>
+    <img alt="Contribution Snake Animation"
+      src="https://raw.githubusercontent.com/ikmalhanaan/ikmalhanaan/output/github-snake-dark.svg"/>
   </picture>
 </p>
 
-<!--
-⚠️ SETUP SNAKE ANIMATION — Buat file ini di repo profil kamu:
-   Path: .github/workflows/snake.yml
-   Isi:
-
-name: Generate Snake Animation
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ikmalhanaan
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-Lalu jalankan workflow-nya sekali dari tab "Actions" → "Run workflow"
--->
-
 ---
 
-<!-- ░░░ FOOTER ░░░ -->
+<!-- ░░░ CYBERPUNK FOOTER (custom animated SVG) ░░░ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00b4d8,100:0d0d0d&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=ffffff&fontAlignY=65" alt="Footer"/>
+  <img width="100%" src="./footer.svg" alt="Footer — End of Transmission"/>
 </p>
 
 <p align="center">

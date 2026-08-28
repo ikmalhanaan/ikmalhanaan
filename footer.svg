@@ -1,0 +1,111 @@
+<svg viewBox="0 0 900 100" width="900" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <filter id="fg" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="flg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#00b4d8" stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#00b4d8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .fg  { stroke:#00b4d8; stroke-width:0.4; opacity:0.1; }
+      .fc  { stroke:#00b4d8; stroke-width:2; fill:none; animation:fcp 2.5s ease-in-out infinite; }
+      @keyframes fcp { 0%,100%{stroke-opacity:1;} 50%{stroke-opacity:0.25;} }
+      .ftitle {
+        font-family:'Courier New',Courier,monospace;
+        font-size:18px;
+        font-weight:700;
+        letter-spacing:5px;
+        filter:url(#fg);
+        animation:ftpulse 3s ease-in-out infinite;
+      }
+      @keyframes ftpulse {
+        0%,100% { fill:#00b4d8; opacity:1; }
+        50%     { fill:#00ff88; opacity:0.8; }
+      }
+      .ftag {
+        font-family:'Courier New',Courier,monospace;
+        font-size:9px;
+        letter-spacing:2px;
+        fill:#00ff88;
+        opacity:0.60;
+      }
+      .fhex {
+        font-family:'Courier New',Courier,monospace;
+        font-size:9px;
+        letter-spacing:1.5px;
+        fill:#00b4d8;
+        opacity:0.38;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="100" fill="#07090f"/>
+
+  <!-- Grid -->
+  <line class="fg" x1="0" y1="33" x2="900" y2="33"/>
+  <line class="fg" x1="0" y1="66" x2="900" y2="66"/>
+  <line class="fg" x1="225" y1="0" x2="225" y2="100"/>
+  <line class="fg" x1="450" y1="0" x2="450" y2="100"/>
+  <line class="fg" x1="675" y1="0" x2="675" y2="100"/>
+
+  <!-- Top neon border -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#flg)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom neon border -->
+  <rect x="0" y="97" width="900" height="3" fill="url(#flg)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner brackets -->
+  <polyline class="fc" points="12,30 12,10 30,10"/>
+  <polyline class="fc" points="888,30 888,10 870,10"/>
+  <polyline class="fc" points="12,70 12,90 30,90"/>
+  <polyline class="fc" points="888,70 888,90 870,90"/>
+
+  <!-- Corner LEDs -->
+  <rect x="9"  y="7"  width="3" height="3" fill="#00ff88" rx="0.5">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="888" y="7" width="3" height="3" fill="#00ff88" rx="0.5">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="9"  y="90" width="3" height="3" fill="#00ff88" rx="0.5">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="888" y="90" width="3" height="3" fill="#00ff88" rx="0.5">
+    <animate attributeName="opacity" values="1;0.08;1" dur="1.4s" begin="1.05s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Left vertical bar -->
+  <rect x="36" y="20" width="2" height="60" fill="#00ff88" rx="1">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Right vertical bar -->
+  <rect x="862" y="20" width="2" height="60" fill="#00ff88" rx="1">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" begin="1.25s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Footer main text -->
+  <text x="450" y="58" class="ftitle" text-anchor="middle">[ END OF TRANSMISSION ]</text>
+
+  <!-- Tags -->
+  <text x="54"  y="24" class="ftag">// SESSION TERMINATED</text>
+  <text x="660" y="24" class="ftag">HANZ v2.0.26</text>
+  <text x="54"  y="90" class="fhex">0xDEADBEEF</text>
+  <text x="704" y="90" class="fhex">SYS_IDLE</text>
+
+</svg>
