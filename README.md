@@ -154,37 +154,27 @@ Motto     : "Hack to learn, build to defend."
 ---
 
 <!-- ░░░ GITHUB STATS ░░░ -->
+<!-- Metrics dihasilkan otomatis oleh GitHub Actions (lowlighter/metrics) -->
+<!-- File github-metrics.svg di-commit ke repo setiap hari — tidak ada external service -->
 <h2 align="center">📊 GitHub Statistics</h2>
 
-<!-- GitHub Profile Trophy — tidak butuh PAT, sangat reliable -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ikmalhanaan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" alt="GitHub Trophies"/>
+  <img width="95%" src="./github-metrics.svg" alt="GitHub Metrics"/>
 </p>
 
-<!-- GitHub Streak — demolab.com stabil -->
+<!-- Quick stats badges via shields.io (always reliable) -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ikmalhanaan&theme=tokyonight&hide_border=true&background=0d1117&ring=00b4d8&fire=00ff88&currStreakLabel=00b4d8&sideLabels=c9d1d9&sideNums=00b4d8&currStreakNum=00ff88&dates=888888" alt="GitHub Streak"/>
-</p>
-
-<!-- Language & Commit stats via shields.io — 100% reliable, no API token needed -->
-<p align="center">
-  <img src="https://img.shields.io/github/commit-activity/m/ikmalhanaan/Postwigger-SQL-Injection?color=00b4d8&style=flat-square&label=Monthly+Commits&logo=github" alt="Commits"/>
+  <img src="https://img.shields.io/github/stars/ikmalhanaan?affiliations=OWNER&color=FFD700&style=flat-square&logo=star&label=Total+Stars" alt="Total Stars"/>
   &nbsp;
-  <img src="https://img.shields.io/github/repo-size/ikmalhanaan/Postwigger-SQL-Injection?color=00ff88&style=flat-square&label=Repo+Size" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/followers/ikmalhanaan?color=00b4d8&style=flat-square&logo=github&label=Followers" alt="Followers"/>
   &nbsp;
-  <img src="https://img.shields.io/github/stars/ikmalhanaan?affiliations=OWNER&color=FFD700&style=flat-square&logo=star&label=Total+Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/last-commit/ikmalhanaan/Postwigger-SQL-Injection?color=00ff88&style=flat-square&label=Last+Active" alt="Last Active"/>
 </p>
 
 ---
 
-<!-- ░░░ CONTRIBUTION ACTIVITY GRAPH ░░░ -->
-<h2 align="center">📈 Contribution Activity</h2>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ikmalhanaan&bg_color=0d1117&color=00b4d8&line=00ff88&point=ffffff&area=true&area_color=00b4d8&hide_border=true" alt="Activity Graph"/>
-</p>
-
 ---
+
 
 <!-- ░░░ CTF PLATFORMS ░░░ -->
 <h2 align="center">🏴 CTF &amp; Hacking Platforms</h2>
