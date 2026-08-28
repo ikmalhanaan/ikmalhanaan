@@ -156,15 +156,23 @@ Motto     : "Hack to learn, build to defend."
 <!-- ░░░ GITHUB STATS ░░░ -->
 <h2 align="center">📊 GitHub Statistics</h2>
 
+<!-- GitHub Profile Trophy — tidak butuh PAT, sangat reliable -->
 <p align="center">
-  <img height="175em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ikmalhanaan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00ff88&text_color=c9d1d9&cache_seconds=86400" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img height="175em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ikmalhanaan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&cache_seconds=86400" alt="Top Languages"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=ikmalhanaan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" alt="GitHub Trophies"/>
 </p>
 
-<!-- GitHub Streak -->
+<!-- GitHub Streak — demolab.com stabil -->
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=ikmalhanaan&theme=tokyonight&hide_border=true&background=0d1117&ring=00b4d8&fire=00ff88&currStreakLabel=00b4d8&sideLabels=c9d1d9&sideNums=00b4d8&currStreakNum=00ff88&dates=888888" alt="GitHub Streak"/>
+</p>
+
+<!-- Language & Commit stats via shields.io — 100% reliable, no API token needed -->
+<p align="center">
+  <img src="https://img.shields.io/github/commit-activity/m/ikmalhanaan/Postwigger-SQL-Injection?color=00b4d8&style=flat-square&label=Monthly+Commits&logo=github" alt="Commits"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/repo-size/ikmalhanaan/Postwigger-SQL-Injection?color=00ff88&style=flat-square&label=Repo+Size" alt="Repo Size"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/ikmalhanaan?affiliations=OWNER&color=FFD700&style=flat-square&logo=star&label=Total+Stars" alt="Stars"/>
 </p>
 
 ---
@@ -237,24 +245,54 @@ Motto     : "Hack to learn, build to defend."
 <!-- ░░░ FEATURED PROJECTS ░░░ -->
 <h2 align="center">📌 Featured Projects</h2>
 
-<p align="center">
-  <a href="https://github.com/ikmalhanaan/Postwigger-SQL-Injection">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=Postwigger-SQL-Injection&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="Postwigger SQL Injection"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/ikmalhanaan/TryHackMe-Overpass">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=TryHackMe-Overpass&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="TryHackMe Overpass"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/ikmalhanaan/DVWA-Practice">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=DVWA-Practice&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="DVWA Practice"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/ikmalhanaan/PicoCTF">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=ikmalhanaan&repo=PicoCTF&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&hide_border=true&icon_color=00ff88&cache_seconds=86400" alt="PicoCTF"/>
-  </a>
-</p>
+<div align="center">
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ikmalhanaan/Postwigger-SQL-Injection">🔐 Postwigger-SQL-Injection</a></h3>
+      <p>SQL Injection labs from PortSwigger Web Academy</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/ikmalhanaan/Postwigger-SQL-Injection?color=00b4d8&style=flat-square&logo=star&label=Stars" alt="stars"/>
+        <img src="https://img.shields.io/github/languages/top/ikmalhanaan/Postwigger-SQL-Injection?color=00ff88&style=flat-square" alt="lang"/>
+        <br/>
+        <img src="https://img.shields.io/github/last-commit/ikmalhanaan/Postwigger-SQL-Injection?color=888888&style=flat-square&label=Last+Commit" alt="commit"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ikmalhanaan/TryHackMe-Overpass">🏴 TryHackMe-Overpass</a></h3>
+      <p>CTF Writeups - TryHackMe Overpass series</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/ikmalhanaan/TryHackMe-Overpass?color=00b4d8&style=flat-square&logo=star&label=Stars" alt="stars"/>
+        <img src="https://img.shields.io/github/languages/top/ikmalhanaan/TryHackMe-Overpass?color=00ff88&style=flat-square" alt="lang"/>
+        <br/>
+        <img src="https://img.shields.io/github/last-commit/ikmalhanaan/TryHackMe-Overpass?color=888888&style=flat-square&label=Last+Commit" alt="commit"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ikmalhanaan/DVWA-Practice">🛡️ DVWA-Practice</a></h3>
+      <p>Damn Vulnerable Web App — vulnerability practice notes</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/ikmalhanaan/DVWA-Practice?color=00b4d8&style=flat-square&logo=star&label=Stars" alt="stars"/>
+        <img src="https://img.shields.io/github/languages/top/ikmalhanaan/DVWA-Practice?color=00ff88&style=flat-square" alt="lang"/>
+        <br/>
+        <img src="https://img.shields.io/github/last-commit/ikmalhanaan/DVWA-Practice?color=888888&style=flat-square&label=Last+Commit" alt="commit"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ikmalhanaan/PicoCTF">🏆 PicoCTF</a></h3>
+      <p>PicoCTF challenge writeups &amp; solutions</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/ikmalhanaan/PicoCTF?color=00b4d8&style=flat-square&logo=star&label=Stars" alt="stars"/>
+        <img src="https://img.shields.io/github/languages/top/ikmalhanaan/PicoCTF?color=00ff88&style=flat-square" alt="lang"/>
+        <br/>
+        <img src="https://img.shields.io/github/last-commit/ikmalhanaan/PicoCTF?color=888888&style=flat-square&label=Last+Commit" alt="commit"/>
+      </p>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
